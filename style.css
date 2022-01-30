@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:linear-gradient(90deg, rgb(74, 211, 147), rgb(231, 94, 94));
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+main{
+    margin: 50px auto 0 auto;
+    border: 1px solid red;
+    display: flexbox;
+    width: max-content;
+    background-color: cadetblue;
+}
+
+#main input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+#btn-add{
+    height: 40px;
+    width: 50px;
+    color: white;
+    background-color: green;
+}
+.list{
+    border: 1px solid black;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.list:nth-child(even){
+    background-color: aliceblue;
+    color: black;
+}
+
